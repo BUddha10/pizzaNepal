@@ -1,5 +1,5 @@
 import React from "react";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+// import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import SearchIcon from "@material-ui/icons/Search";
 import "./Header.css";
 
@@ -28,7 +28,6 @@ function Header() {
           <div className="buttom_search">
             <div className="search_city">
               <input type="text" placeholder="City" size="1" />
-              <ExpandMoreIcon />
             </div>
 
             <div className="search_icon">
