@@ -73,6 +73,7 @@
   text-transform: capitalize;
   color: #333333;
   opacity: 0.8;
+  outline: none;
 }
 
 .buttom_search {
@@ -93,6 +94,8 @@
 }
 
 .search_city > input {
+  border: none;
+  outline: none;
   height: 100%;
   padding-left: 20px;
   background: transparent;
