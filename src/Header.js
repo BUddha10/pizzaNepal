@@ -3,16 +3,9 @@ import React from "react";
 import SearchIcon from "@material-ui/icons/Search";
 import "./Header.css";
 
-import backgroundImg from "./images/header_background.jpg";
-
 function Header() {
   return (
-    <div
-      className="header"
-      style={{
-        backgroundImage: `url(${backgroundImg})`,
-      }}
-    >
+    <div className="header">
       <div className="header_logo">PizzaNepal</div>
       <div className="header_buttom">
         <div className="header_buttomTop">Browse the pizza shops in Nepal</div>
